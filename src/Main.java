@@ -4,10 +4,10 @@ public class Main {
 
         BmiService service = new BmiService();
 
-        int m = 98; // кг
-        double h = 1.87; // м
+        int weight = 98; // кг
+        double height = 1.87; // м
 
-        int index = service.calculate(m, h);
+        int index = service.calculate(weight, height);
 
         System.out.println(index);
     }
